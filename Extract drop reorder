@@ -1,0 +1,21 @@
+data<-data.frame(
+       fruits=c("apple","mango","oranges"),
+       flowers=c("sunflower","rose","marigold"),
+       vegetables=c("carrot","beetroot","cabbage")
+)
+
+print(data)
+
+extractdata<-data[,3]
+print(extractdata)
+
+reorderdata<-data[,c(3,2,1)]
+print(reorderdata)
+
+dropdata<-data[,-1]
+print(dropdata)
+
+
+
+
+
