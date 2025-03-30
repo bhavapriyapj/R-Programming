@@ -1,0 +1,14 @@
+A DataFrame is a two-dimensional, labeled data structure in Pandas, similar to a table in a database or an Excel spreadsheet. 
+Common Operations
+
+    Creating a DataFrame → From lists, dictionaries, CSV files, etc.
+
+    Inspecting Data → .info(), .describe(), .head()
+
+    Selecting & Filtering → Indexing, slicing, conditions
+
+    Modifying Data → Adding/removing columns, updating values
+
+    Handling Missing Values → .fillna(), .dropna()
+
+    Aggregating & Grouping → .groupby(), .agg()
