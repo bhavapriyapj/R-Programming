@@ -1,0 +1,14 @@
+  MERGE MULTIPLE DATAFRAME
+
+data1<-data.frame(
+  fruits=c("apple","mango","oranges"),
+  flowers=c("sunflower","rose","marigold"),
+  vegetables=c("carrot","beetroot","cabbage")
+)
+data2<-data.frame(
+  s=c(3,8,0),
+  r=c(4,5,7),
+  v=c(1,2,3)
+)
+mergedata<- merge(data1,data2)
+print(mergedata)
