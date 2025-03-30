@@ -1,0 +1,11 @@
+value<-data.frame(
+  
+  num1=c(124,56,89,99,3),
+  num2=c(78,99,56,23,6),
+  num3=c(56789,888,223,6,5)
+       )
+print(value)
+
+
+row_max <- apply(value, 1, max)
+print(row_max)
