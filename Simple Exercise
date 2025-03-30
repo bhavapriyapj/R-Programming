@@ -1,4 +1,4 @@
-1.Convert list to dataframe
+## **1. Convert List to DataFrame**
 list1<-c("apple","mango","oranges","blueberry")
 print(list1)
 
@@ -19,7 +19,6 @@ colnames(data)=("newfruits")  //change all
 colnames(data)[3]<-"newvegetables"//specific
 print(data)
 
-3.
 
 
 
