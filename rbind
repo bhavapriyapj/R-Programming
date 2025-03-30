@@ -1,0 +1,17 @@
+#append one dataframe at first of another dataframe#
+#rbind#
+
+value1 <- data.frame(
+  a = c(124, 56, 89),
+  d = c(78, 99, 56),
+  b = c(56789, 888, 223)
+)
+
+value2 <- data.frame(
+  a = c(99, 3),
+  d = c(23, 6),
+  b = c(6, 5)
+)
+
+combine<-rbind(value2,value1)
+print(combine)
