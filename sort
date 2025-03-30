@@ -1,0 +1,15 @@
+#sort dataframe by coloumname#
+
+
+
+value<-data.frame(
+  
+  a=c(124,56,89,99,3),
+  d=c(78,99,56,23,6),
+  b=c(56789,888,223,6,5)
+)
+print(value)
+sorteddata<-value[,order(names(value))]
+print(sorteddata)
+
+
