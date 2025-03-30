@@ -1,0 +1,22 @@
+#common rows and common coloums#
+value1 <- data.frame(
+  a = c(124, 56, 89),
+  d = c(78, 99, 56),
+  b = c(56789, 888, 223)
+)
+
+
+value2 <- data.frame(
+  a = c(99, 3),
+  d = c(23, 6),
+  r= c(6, 5)
+)
+
+common_columns <- intersect(names(value1), names(value2))
+print("Common Columns:")
+print(common_columns)
+
+
+common_rows <- merge(value1, value2)
+print("Common Rows:")
+print(common_rows)
