@@ -1,0 +1,31 @@
+1.Convert list to dataframe
+list1<-c("apple","mango","oranges","blueberry")
+print(list1)
+
+change=data.frame(list1)
+print(change)
+
+
+2.Change Coloumnames of a dataframe 
+data<-data.frame(
+       fruits=c("apple","mango","oranges"),
+       flowers=c("sunflower","rose","marigold"),
+       vegetables=c("carrot","beetroot","cabbage")
+)
+
+print(data)
+
+colnames(data)=("newfruits")  //change all 
+colnames(data)[3]<-"newvegetables"//specific
+print(data)
+
+3.
+
+
+
+
+
+
+
+
+
